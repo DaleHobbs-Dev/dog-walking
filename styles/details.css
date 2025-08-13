@@ -1,15 +1,14 @@
 .details {
-    display: fle;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .detail--column {
-    flex-basis: 24%;
-    margin: 0 2rem;
-    border: 1px dotted goldenrod;
+  flex-basis: 24%;
+  padding: 0 2rem;
+  border: 1px dotted goldenrod;
 }
 
 .assignments {
-    padding: 1rem 5rem;
+  padding: 1rem 5rem;
 }
-

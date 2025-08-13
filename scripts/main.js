@@ -18,6 +18,7 @@ const applicationHTML = `
     </section>
     <section class="detail--column list details__cities">
         <h2>Pets</h2>
+        ${RegisteredPets()}
     </section>
 </article>
 
@@ -29,3 +30,9 @@ const applicationHTML = `
 
 mainContainer.innerHTML = applicationHTML
 
+//bugs
+//main.js = 0
+//CityList.js = 0
+//Walkers.js = 0
+//Assignments.js = 0
+//CSS = 3
