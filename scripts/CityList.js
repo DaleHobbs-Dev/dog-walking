@@ -10,7 +10,7 @@ const cityWalkerMap = new Map();
 
 // Map each cityId to the list of walkers who service that city
 for (const walker of walkers) {
-    const cityId = walker.cityId  // each walker belongs to exactly one city
+    const cityId = walker.cityId; // each walker belongs to exactly one city
 
     // If this city hasn't been added to the map yet, create a new entry
     // Map.prototype.set(key, value) → adds or overwrites an entry
